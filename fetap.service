@@ -1,0 +1,19 @@
+[Unit]
+Description=FeTAp 791 Rotary Phone AI Assistant (Gemini Live)
+After=network-online.target sound.target systemd-timesyncd.service
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=paimon
+Group=paimon
+WorkingDirectory=/home/paimon/fetap791_ai
+EnvironmentFile=-/home/paimon/fetap791_ai/.env
+Environment=PYTHONUNBUFFERED=1
+Environment=PATH=/home/paimon/fetap791_ai/venv/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+ExecStart=/home/paimon/fetap791_ai/venv/bin/python3 /home/paimon/fetap791_ai/pi_fetap_live.py
+Restart=always
+RestartSec=3
+
+[Install]
+WantedBy=multi-user.target

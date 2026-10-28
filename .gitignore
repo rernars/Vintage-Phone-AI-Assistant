@@ -1,0 +1,25 @@
+# Environment and API keys (CRITICAL: NEVER COMMIT KEYS!)
+.env
+*.env
+!.env.example
+
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environment
+venv/
+env/
+ENV/
+.venv/
+
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Logs & temp files
+*.log
+scratch/
