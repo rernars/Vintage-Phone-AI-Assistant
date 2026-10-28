@@ -34,11 +34,7 @@ if env_file.exists():
     except Exception:
         pass
 
-try:
-    import config
-    API_KEY = getattr(config, "GEMINI_API_KEY", os.getenv("GEMINI_API_KEY", ""))
-except ImportError:
-    API_KEY = os.getenv("GEMINI_API_KEY", "")
+API_KEY = os.getenv("GEMINI_API_KEY", "")
 
 # ---------------------------------------------------------------------------
 # Hardware & Audio Configuration
