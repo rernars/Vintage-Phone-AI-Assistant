@@ -41,7 +41,7 @@ All switches connect between their GPIO pin and **GND** (internal pull-up resist
 
 | FeTAp 791 Contact | Raspberry Pi Pin | Function |
 | :--- | :--- | :--- |
-| **Hook Switch)** | **GPIO 17** (Pin 11) & **GND** (Pin 9) | Detects handset lifted / placed on cradle |
+| **Hook Switc** | **GPIO 17** (Pin 11) & **GND** (Pin 9) | Detects handset lifted / placed on cradle |
 | **Rotary Encoder Signal Pins** | **GPIO 22** (Pin 15) & **GND** (Pin 14) | Decodes pulse dialing (1-10 pulses) |
 | **Rotary encoder turning detector** | **GPIO 27** (Pin 13) & **GND** (Pin 14) | Silences dial tone when wheel starts turning |
 | **Handset Microphone** | USB Sound Card **Mic In** (3.5mm) | Captures user speech |
@@ -105,5 +105,7 @@ journalctl -u fetap.service -f
 ```
 
 ---
+
+NOTE: Most coding part of this project was done by AI, it might have bugs since its still in development.
 
 
