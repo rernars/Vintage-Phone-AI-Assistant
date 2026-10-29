@@ -103,7 +103,6 @@ sudo systemctl enable --now fetap.service
 sudo systemctl status fetap.service
 journalctl -u fetap.service -f
 ```
-NOTE: AI was mainly used in the documenting and coding part of this project which means there might be some bugs in the software but I would be glad to help with debugging / questions about the project.
 ---
 
 NOTE: Most coding part of this project was done by AI, it might have bugs since its still in development.
