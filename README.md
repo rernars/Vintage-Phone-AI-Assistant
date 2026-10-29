@@ -7,9 +7,9 @@ Turn a classic **Deutsche Bundespost FeTAp 791**(or any)  rotary telephone into 
 ## Features
 
 - **Authentic Telephony Experience**:
-  - Lift the handset (*Gabel abheben*) to hear the classic **German dial tone (Wählton, 425 Hz)**.
-  - Authentic dial tone silence upon rotating the dial, and ringing tone (*Freiton*) during call establishment.
-  - Hanging up (*Auflegen*) immediately disconnects the live session and mutes all audio.
+  - Lift the handset to hear the classic **German dial tone**.
+  - Authentic dial tone silence upon rotating the dial, and ringing tone during call establishment.
+  - Hanging up immediately disconnects the live session and mutes all audio.
 - **Multilingual Rotary Dialing**:
   - Dial **`1`** (or wait 4 seconds): 🇩🇪 **German Assistant** (Voice: *Aoede*)
   - Dial **`2`**: 🇬🇧 **English Assistant** (Voice: *Puck*)
@@ -103,7 +103,7 @@ sudo systemctl enable --now fetap.service
 sudo systemctl status fetap.service
 journalctl -u fetap.service -f
 ```
-
+NOTE: AI was mainly used in the documenting and coding part of this project which means there might be some bugs in the software but I would be glad to help with debugging / questions about the project.
 ---
 
 NOTE: Most coding part of this project was done by AI, it might have bugs since its still in development.
