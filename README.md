@@ -59,7 +59,7 @@ sudo apt install -y python3-pip python3-venv portaudio19-dev libasound2-dev gpio
 
 ### 2. Clone and Setup Environment
 ```bash
-git clone https://github.com/YOUR_USERNAME/fetap791-gemini-live.git
+git clone https://github.com/rernars/Vintage-Phone-AI-Assistant.git
 cd fetap791-gemini-live
 
 python3 -m venv venv
